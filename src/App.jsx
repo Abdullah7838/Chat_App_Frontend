@@ -4,6 +4,7 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import Chat from './components/Chat';
 import About from './components/About';
+import ChatGuidliness from './components/ChatGuidliness';
 export default function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/chat" element={<Chat />} />
           <Route path="/about" element={<About />} />
+          <Route path="/rules" element={<ChatGuidliness />} />
         </Routes>
       </div>
     </Router>

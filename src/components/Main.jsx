@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 function Main() {
     return (
-      <div className="bg-gray-100 min-h-screen flex flex-col justify-center items-center py-10">
-        <div className="text-center font-black text-5xl xs:text-2xl text-gray-800 mb-10">
+      <div className="bg-gray-900 min-h-screen flex flex-col justify-center items-center py-10">
+        <div className="text-center font-black text-5xl xs:text-2xl text-white mb-10">
           World Chat App (Beta)
         </div>
   
@@ -23,7 +23,7 @@ function Main() {
         </div>
   
         <div className="text-center mt-10">
-          <p className="text-zinc-600">Want to know who we are?</p>
+          <p className="text-zinc-300">Want to know who we are?</p>
           <Link to="/about" className="text-blue-500 hover:text-blue-600">About us</Link>
         </div>
         <p className="text-gray-500 mt-4">version: 0.01</p>
